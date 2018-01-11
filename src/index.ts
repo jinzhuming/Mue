@@ -34,12 +34,3 @@ class Mue {
     this.$el.appendChild(parser.parseFragment)
   }
 }
-
-const text: any = new Mue({
-  el: '#app',
-  test: 1
-})
-
-setTimeout(() => {
-  text.test += 1
-}, 2000)
